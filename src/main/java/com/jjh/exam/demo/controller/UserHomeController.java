@@ -10,6 +10,7 @@ public class UserHomeController {
 	
 	@RequestMapping("/usr/home/main")
 	public String showMain() {
+		System.out.println("back테스트");
 		return "usr/home/main";
 	}
 	
